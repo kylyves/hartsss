@@ -8,4 +8,14 @@
 </head>
 <body>
     <canvas id="pinkboard"></canvas>
-    <audio id="sound" controls autoplay src="SnapTik.ltd_1728634473.mp3"></audio>
+    <script>
+      // Create the audio element dynamically
+      var audio = document.createElement("audio");
+      audio.id = "sound";
+      audio.controls = true;
+      audio.autoplay = true;
+      audio.src = "SnapTik.ltd_1728634473.mp3";
+      document.body.appendChild(audio);
+    </script>
+</body>
+</html>
